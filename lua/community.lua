@@ -8,8 +8,11 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.go" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.proto" },
   { import = "astrocommunity.pack.json" },
-  
+  -- UI
+  { import = "astrocommunity.colorscheme.catppuccin" },
+  { import = "astrocommunity.scrolling.neoscroll-nvim" },
   -- Essential IDE features
   { import = "astrocommunity.test.neotest" },
   { import = "astrocommunity.git.git-blame-nvim" },
@@ -17,4 +20,5 @@ return {
   { import = "astrocommunity.motion.hop-nvim" },
   { import = "astrocommunity.editing-support.todo-comments-nvim" },
   { import = "astrocommunity.utility.noice-nvim" },
+  { import = "astrocommunity.session.vim-workspace" },
 }
