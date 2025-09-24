@@ -14,7 +14,7 @@ mv ~/.cache/nvim ~/.cache/nvim.bak
 #### Clone the repository
 
 ```shell
-git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
+git clone git@github.com:ikristina/nvim_config.git ~/.config/nvim
 ```
 
 #### Start Neovim
